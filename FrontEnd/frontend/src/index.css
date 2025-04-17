@@ -1,0 +1,53 @@
+/* @import "tailwindcss" prefix(tw); */
+@import "tailwindcss" ;
+
+@theme {
+    /* --font-display: "Satoshi", "sans-serif"; */
+    --breakpoint-3xl: 120rem;
+   
+    --color-avocado-200: oklch(0.98 0.04 113.22);
+    --color-avocado-300: oklch(0.94 0.11 115.03);
+    --color-avocado-400: oklch(0.92 0.19 114.08);
+    --color-avocado-500: oklch(0.84 0.18 117.33);
+    --bg-primary: #5F6FFF;
+    --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+    --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+   
+    /* ... */
+  }
+  .bg-primary {
+    background-color: var(--bg-primary);
+}
+
+body
+{
+  font-family: "Manrope", sans-serif;
+  /* background-color: aquamarine; */
+  background: linear-gradient(to right, #BDE8EE, #FCFCF9, #FEF2DE);
+}
+  
+ ::-webkit-scrollbar{
+  @apply hidden
+ }
+
+ .active  hr {
+  @apply block
+ }
+
+
+
+ .stick_class {
+  position: sticky;
+  top: 0;
+
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+
+
+
+
+
+
